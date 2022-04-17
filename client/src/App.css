@@ -1,0 +1,129 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+/****** NavBar ********/
+.logo-text {
+  font-family: "Great Vibes", cursive;
+  color: #104799;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-left: 55px;
+}
+.navbar {
+  background-color: rgba(224, 215, 215, 0.075);
+  width: 100%;
+  height: 50px;
+  position: sticky;
+ box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.03) 0px 0px 0px 1px;
+}
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.2em;
+  list-style: none;
+  color:#104799;
+  
+}
+.navbar a{
+  color:#104799;
+  margin-right: 70px;
+}
+
+/******* Login Form********/
+.login-form {
+  margin-top: 100px;
+  margin-left: 470px;
+}
+.login-form a {
+  text-decoration: none;
+  color: gray;
+  font-weight: bold;
+}
+.login-form h1{
+  margin-bottom: 40px;
+  margin-left: 120px;
+}
+.login-form p{
+  margin-left: 100px;
+  margin-bottom: 0px;
+}
+/****** REgister ******/
+.register-bloc{
+  margin-top: 100px;
+  margin-left: 280px;
+}
+.register-bloc h1{
+  margin-bottom: 40px;
+  margin-left: 220px;
+
+}
+/****** Home ****/
+.home-element{
+  margin-top: 15px;
+}
+.grouped-element{
+  display:flex;
+  margin-left: 70px;
+}
+.home-element p{
+  margin-left: 70px;
+  font-family: "Nunito", sans-serif;
+  font-size: 14px;
+  color: gray;
+  width: 1000px;
+}
+.home-element h1{
+  font-family: "Poppins", sans-serif;
+}
+/******* add Contact *******/
+.add-element{
+  margin-top: 20px;
+  height: 400px;
+  width: 600px;
+}
+/******** all contacts ******/
+
+.div-content{
+display: flex;
+}
+.div-content p{
+margin-left: 7px;
+}
+.All-contacts{
+  margin-top: 30px;
+  display: flex;
+  margin-left: -70px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.align-card{
+ margin-top: -20px;
+ margin-left: -5px;
+
+}
+/**** Update contact****/
+.modale-Element{
+  width: 60%;
+  height: 100%;
+  top: 75px;
+  position: fixed;
+  z-index: 9999999; 
+  margin-left: -60px;
+}
+.form-element{
+  width: 40%;
+  height: 380px;
+  background-color: white;
+  margin-top: 150px;
+  margin-left: 0px;
+  
+}
+.button-content{
+  display: flex;
+  justify-content: space-evenly;
+}
+.form-element .input-element{
+  margin-bottom: 10px;
+}
